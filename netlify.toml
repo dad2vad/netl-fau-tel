@@ -1,6 +1,7 @@
 [build]
   functions = "functions"
-  publish = "public"
+  command = "npm run build"
+  publish = "build"
 [template.environment]
   FAUNA_SECRET_KEY = "fnADmWM7BgACC2wM_kq5ch3J32c9Rv32ysGU3zXz"
   TELEGRAM_BOT_TOKEN = "914035211:AAGHrpMygubAc8HYBXp0qwhdIFvY2ZK0rDc"
